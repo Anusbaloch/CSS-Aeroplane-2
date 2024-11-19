@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Aeroplane-2</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+        .runway img{
+position: relative;
+width: 100%;
+bottom: 0%;
+        }
+        .airplane{
+            bottom: 354px;
+            position: relative;
+            width: 560px;
+            right: -913px;
+            animation: plane 5s linear 0s infinite ;
+            right: -870px;
+    bottom: 380px;
+
+        }
+        @keyframes plane {
+            0%{
+                right: 0%; top: 0px;
+            }
+            20%{
+                right: 20%; top: -50px;
+            }
+            40%{
+                right: 700px; top: -150px;
+            }
+            60%{
+                right: 1000px; top: -350px;
+            }
+            80%{
+                right: 1300px; top: -500px;
+            }
+            100%{
+                right: 1500%; top: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="runway">
+        <img src="./images/CSS Aeroplane 2.jpg" alt="">
+        <div class="airplane">
+            <img style="right: -900px; top: -366px;"  src="./images/Aeroplane_3d-removebg-preview.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
